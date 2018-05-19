@@ -1,0 +1,304 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Switch
+LIBS:Switch-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BNC P1
+U 1 1 58D2C13B
+P 6450 2800
+F 0 "P1" H 6460 2920 50  0000 C CNN
+F 1 "RF1" V 6560 2740 50  0000 C CNN
+F 2 "Microwave:CON-SMA-EDGE" H 6450 2800 50  0001 C CNN
+F 3 "" H 6450 2800 50  0000 C CNN
+F 4 "2579819" H 6450 2800 60  0001 C CNN "MPN"
+F 5 "No" H 6450 2800 60  0001 C CNN "DNP"
+F 6 "Value" H 6450 2800 60  0001 C CNN "Fieldname"
+	1    6450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BNC P3
+U 1 1 58D2C25A
+P 3900 2800
+F 0 "P3" H 3910 2920 50  0000 C CNN
+F 1 "RF2" V 4010 2740 50  0000 C CNN
+F 2 "Microwave:CON-SMA-EDGE" H 3900 2800 50  0001 C CNN
+F 3 "" H 3900 2800 50  0000 C CNN
+F 4 "2579819" H 3900 2800 60  0001 C CNN "MPN"
+F 5 "No" H 3900 2800 60  0001 C CNN "DNP"
+F 6 "Value" H 3900 2800 60  0001 C CNN "Fieldname"
+	1    3900 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 58D2D011
+P 6450 3000
+F 0 "#PWR01" H 6450 2750 50  0001 C CNN
+F 1 "GND" H 6450 2850 50  0000 C CNN
+F 2 "" H 6450 3000 50  0000 C CNN
+F 3 "" H 6450 3000 50  0000 C CNN
+	1    6450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 58D2D1AF
+P 3900 3000
+F 0 "#PWR02" H 3900 2750 50  0001 C CNN
+F 1 "GND" H 3900 2850 50  0000 C CNN
+F 2 "" H 3900 3000 50  0000 C CNN
+F 3 "" H 3900 3000 50  0000 C CNN
+	1    3900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 58D54398
+P 4300 2800
+F 0 "C1" H 4310 2870 50  0000 L CNN
+F 1 "1n" H 4310 2720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4300 2800 50  0001 C CNN
+F 3 "" H 4300 2800 50  0000 C CNN
+F 4 "Yes" H 4300 2800 60  0001 C CNN "DNP"
+F 5 "Value" H 4300 2800 60  0001 C CNN "Fieldname"
+	1    4300 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C3
+U 1 1 58D66464
+P 6050 2800
+F 0 "C3" H 6060 2870 50  0000 L CNN
+F 1 "1n" H 6060 2720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6050 2800 50  0001 C CNN
+F 3 "" H 6050 2800 50  0000 C CNN
+F 4 "Yes" H 6050 2800 60  0001 C CNN "DNP"
+F 5 "Value" H 6050 2800 60  0001 C CNN "Fieldname"
+	1    6050 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L BNC P2
+U 1 1 58D664E6
+P 5150 1900
+F 0 "P2" H 5160 2020 50  0000 C CNN
+F 1 "IN" V 5260 1840 50  0000 C CNN
+F 2 "Microwave:CON-SMA-EDGE" H 5150 1900 50  0001 C CNN
+F 3 "" H 5150 1900 50  0000 C CNN
+F 4 "2579819" H 5150 1900 60  0001 C CNN "MPN"
+F 5 "No" H 5150 1900 60  0001 C CNN "DNP"
+F 6 "Value" H 5150 1900 60  0001 C CNN "Fieldname"
+	1    5150 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 58D6659B
+P 5350 1900
+F 0 "#PWR03" H 5350 1650 50  0001 C CNN
+F 1 "GND" H 5350 1750 50  0000 C CNN
+F 2 "" H 5350 1900 50  0000 C CNN
+F 3 "" H 5350 1900 50  0000 C CNN
+	1    5350 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CG2179M2 U1
+U 1 1 58D6677D
+P 5150 2850
+F 0 "U1" H 5300 2600 60  0000 C CNN
+F 1 "CG2179M2" H 5400 3050 60  0000 C CNN
+F 2 "Microwave:SwitchMulti" H 5150 2850 60  0001 C CNN
+F 3 "" H 5150 2850 60  0000 C CNN
+F 4 "CG2179M2-C4" H 5150 2850 60  0001 C CNN "MPN"
+F 5 "No" H 5150 2850 60  0001 C CNN "DNP"
+F 6 "Value" H 5150 2850 60  0001 C CNN "Fieldname"
+	1    5150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 58D66C0C
+P 5150 3250
+F 0 "#PWR04" H 5150 3000 50  0001 C CNN
+F 1 "GND" H 5150 3100 50  0000 C CNN
+F 2 "" H 5150 3250 50  0000 C CNN
+F 3 "" H 5150 3250 50  0000 C CNN
+	1    5150 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 4700 2950 0    60   Input ~ 0
+VC1
+Text GLabel 5600 2950 2    60   Input ~ 0
+VC2
+Wire Wire Line
+	6150 2800 6300 2800
+Wire Wire Line
+	5600 2800 5950 2800
+$Comp
+L C_Small C2
+U 1 1 58D66CDB
+P 5150 2300
+F 0 "C2" H 5160 2370 50  0000 L CNN
+F 1 "1n" H 5160 2220 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5150 2300 50  0001 C CNN
+F 3 "" H 5150 2300 50  0000 C CNN
+F 4 "Yes" H 5150 2300 60  0001 C CNN "DNP"
+F 5 "Value" H 5150 2300 60  0001 C CNN "Fieldname"
+	1    5150 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 2050 5150 2200
+Wire Wire Line
+	5150 2400 5150 2500
+Wire Wire Line
+	4700 2800 4400 2800
+Wire Wire Line
+	4200 2800 4050 2800
+$Comp
+L C_Small C5
+U 1 1 58D67090
+P 5700 3600
+F 0 "C5" H 5710 3670 50  0000 L CNN
+F 1 "1n" H 5710 3520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5700 3600 50  0001 C CNN
+F 3 "" H 5700 3600 50  0000 C CNN
+F 4 "Yes" H 5700 3600 60  0001 C CNN "DNP"
+F 5 "Value" H 5700 3600 60  0001 C CNN "Fieldname"
+	1    5700 3600
+	1    0    0    -1  
+$EndComp
+Text GLabel 5700 3500 1    60   Input ~ 0
+VC2
+$Comp
+L GND #PWR05
+U 1 1 58D671E0
+P 5700 3700
+F 0 "#PWR05" H 5700 3450 50  0001 C CNN
+F 1 "GND" H 5700 3550 50  0000 C CNN
+F 2 "" H 5700 3700 50  0000 C CNN
+F 3 "" H 5700 3700 50  0000 C CNN
+	1    5700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C4
+U 1 1 58D67203
+P 4600 3600
+F 0 "C4" H 4610 3670 50  0000 L CNN
+F 1 "1n" H 4610 3520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4600 3600 50  0001 C CNN
+F 3 "" H 4600 3600 50  0000 C CNN
+F 4 "Yes" H 4600 3600 60  0001 C CNN "DNP"
+F 5 "Value" H 4600 3600 60  0001 C CNN "Fieldname"
+	1    4600 3600
+	1    0    0    -1  
+$EndComp
+Text GLabel 4600 3500 1    60   Input ~ 0
+VC1
+$Comp
+L GND #PWR06
+U 1 1 58D67277
+P 4600 3700
+F 0 "#PWR06" H 4600 3450 50  0001 C CNN
+F 1 "GND" H 4600 3550 50  0000 C CNN
+F 2 "" H 4600 3700 50  0000 C CNN
+F 3 "" H 4600 3700 50  0000 C CNN
+	1    4600 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4250 1850 2    60   Input ~ 0
+VC1
+Text GLabel 4250 2250 2    60   Input ~ 0
+VC2
+$Comp
+L GND #PWR07
+U 1 1 58D67B2B
+P 4250 1950
+F 0 "#PWR07" H 4250 1700 50  0001 C CNN
+F 1 "GND" H 4250 1800 50  0000 C CNN
+F 2 "" H 4250 1950 50  0000 C CNN
+F 3 "" H 4250 1950 50  0000 C CNN
+	1    4250 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 58D67D2D
+P 4250 2350
+F 0 "#PWR08" H 4250 2100 50  0001 C CNN
+F 1 "GND" H 4250 2200 50  0000 C CNN
+F 2 "" H 4250 2350 50  0000 C CNN
+F 3 "" H 4250 2350 50  0000 C CNN
+	1    4250 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P4
+U 1 1 58D67DE6
+P 4050 1900
+F 0 "P4" H 4050 2050 50  0000 C CNN
+F 1 "VC1" V 4150 1900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4050 1900 50  0001 C CNN
+F 3 "" H 4050 1900 50  0000 C CNN
+	1    4050 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P5
+U 1 1 58D67F39
+P 4050 2300
+F 0 "P5" H 4050 2450 50  0000 C CNN
+F 1 "VC2" V 4150 2300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4050 2300 50  0001 C CNN
+F 3 "" H 4050 2300 50  0000 C CNN
+	1    4050 2300
+	-1   0    0    1   
+$EndComp
+Text Notes 6000 1900 0    60   ~ 0
+Other switches:\nHMC544A (high power!) 2,5€
+$EndSCHEMATC
